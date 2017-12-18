@@ -33,5 +33,4 @@
 10. A quoi sert un diagramme de cas d'utilisation ?
 	- Les diagrammes de cas d'utilisations sont utilisé pour donner une vision globale du comportement fonctionnel d'un système.
 
-![diagrammeSensCritique](lien)
-
+![diagrammeSensCritique](images/sensCritiqueDiagUc.png)
