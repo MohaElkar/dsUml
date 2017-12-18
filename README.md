@@ -88,3 +88,10 @@
   		- Toutes les méthodes décrites précedemment doivent être implémentées.
 
 ![diagrammeSensCritique](images/diagCritiqueSequence.png)
+
+
+# Diagramme de classe
+
+Diagramme de classe du système sens critique.
+
+![diagrammeClasseSensCritique](images/diagClass.png)
