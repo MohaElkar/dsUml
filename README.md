@@ -82,9 +82,9 @@
 	- Reservation
 		- createReservation(date, hotel)
 
-  	1. Que devez-vous modifier pour que les “éléments” clef correspondent à des classes ?
-
-  	1. Quelles méthodes devraient implémenter ces classes?
+  1. Que devez-vous modifier pour que les “éléments” clef correspondent à des classes ?
+  	
+  1. Quelles méthodes devraient implémenter ces classes?
   		- Toutes les méthodes décrites précedemment doivent être implémentées.
 
 ![diagrammeSensCritique](images/diagCritiqueSequence.png)
