@@ -34,3 +34,57 @@
 	- Les diagrammes de cas d'utilisations sont utilisé pour donner une vision globale du comportement fonctionnel d'un système.
 
 ![diagrammeSensCritique](images/sensCritiqueDiagUc.png)
+
+
+# Diagramme de séquence
+
+## Je comprends 
+
+1. Quels sont les acteurs?
+	- Client
+	- WebInterfaceSystem
+	- HotelChain
+	- Hotel
+
+1. Comprenez-vous le scénario?
+	- Oui, je comprends le scénario.
+
+1. Quelle structure correspond à une boucle? à une condition?
+	- Boucle = loop
+	- Condition = alt
+
+1. Quel objet est créé?
+	- Un object de type Reservation
+
+1. Qui exécute le comportement de “réserver une chambre à une date donnée” ?
+	- c'est WebInterfaceSystem
+
+1. Qui répond à “available(date)” ?
+	- C'est Hotel qui répond.
+
+1. Qui fait appel à “available(date)” ?
+	- C'est HotelChain
+
+1. Qui exécute “lookForAvailableHotels(Place)” ?
+	- C'est HotelChain qui exécute la méthode en mode réflexif.
+
+1. Définissez les classes correspondantes et les méthodes qui leur sont associées.
+	- WebInterfaceSystem
+		- AskForAReservation
+		- SelectAnHotel
+	- HotelChain
+		- MakeReservation(date, place)
+		- lookForHotels(place)
+		- addHotelToTheList
+	- Hotel
+		- available(date)
+		- reserve(date)
+	- Reservation
+		- createReservation(date, hotel)
+
+  	1. Que devez-vous modifier pour que les “éléments” clef correspondent à des classes ?
+
+  	1. Quelles méthodes devraient implémenter ces classes?
+  		- Toutes les méthodes décrites précedemment doivent être implémentées.
+
+![diagrammeSensCritique](images/diagCritiqueSequence.png)
